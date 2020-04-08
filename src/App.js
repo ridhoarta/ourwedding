@@ -2,6 +2,8 @@ import React from 'react'
 
 import moment from 'moment'
 
+import {deviceType} from 'react-device-detect'
+
 const oneSecond = 1000
 const oneMinute = 60 * oneSecond
 const oneHour = 60 * oneMinute
@@ -49,7 +51,7 @@ class App extends React.Component {
                 <div 
                     style= {{
                         display: 'flex',
-                        flexDirection: 'row',
+                        flexDirection: deviceType === 'mobile' ? 'column' : 'row',
                         justifyContent: 'center',
                         alignItems: 'center',
                     }}
@@ -66,15 +68,15 @@ class App extends React.Component {
                                 fontFamily: 'DancingScriptBold',
                                 fontSize: 60,
                                 margin: 0,
-                                textAlign: "right"
+                                textAlign: deviceType === 'mobile' ? 'center' : 'right'
                             }}
-                        >Ridho</h1>
+                        > Ridho</h1>
                         <p
                             style = {{
                                 fontFamily: 'MontserratMedium',
                                 fontSize: 12,
                                 margin: 0,
-                                textAlign: "right"
+                                textAlign: deviceType === 'mobile' ? 'center' : 'right'
                             }}
                         >Octanio Noya</p>
                     </div>
@@ -87,10 +89,10 @@ class App extends React.Component {
                             src={require('./Assets/profile.jpg')}
                             alt = "Our Profile"
                             style={{
-                                width: 250,
-                                height: 250,
+                                width: 200,
+                                height: 200,
                                 objectFit: 'cover',
-                                borderRadius: 125
+                                borderRadius: 100
                             }}
                         />
                     </div>
@@ -106,7 +108,7 @@ class App extends React.Component {
                                 fontFamily: 'DancingScriptBold',
                                 fontSize: 60,
                                 margin: 0,
-                                textAlign: "left"
+                                textAlign: deviceType === 'mobile' ? 'center' : 'left'
                             }}
                         >Arta</h1>
                         <p
@@ -114,7 +116,7 @@ class App extends React.Component {
                                 fontFamily: 'MontserratMedium',
                                 fontSize: 12,
                                 margin: 0,
-                                textAlign: "left"
+                                textAlign: deviceType === 'mobile' ? 'center' : 'left'
                             }}
                         >Mevia Maharani</p>
                     </div>
@@ -123,8 +125,8 @@ class App extends React.Component {
                 <p
                     style = {{
                         fontFamily: 'MontserratMedium',
-                        fontSize: 20,
-                        paddingTop: 10,
+                        fontSize: 18,
+                        paddingTop: deviceType === 'mobile' ? 30 : 10,
                         paddingBottom: 10,
                         margin: 0
                     }}
