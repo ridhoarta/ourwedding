@@ -58,7 +58,6 @@ class App extends React.Component {
                         style = {{
                             display: 'flex',
                             flexDirection: 'column',
-                            alignItems: 'center',
                             width: 200
                         }}
                     >
@@ -66,16 +65,18 @@ class App extends React.Component {
                             style = {{
                                 fontFamily: 'DancingScriptBold',
                                 fontSize: 60,
-                                margin: 0
+                                margin: 0,
+                                textAlign: "right"
                             }}
                         >Ridho</h1>
                         <p
                             style = {{
                                 fontFamily: 'MontserratMedium',
                                 fontSize: 12,
-                                margin: 0
+                                margin: 0,
+                                textAlign: "right"
                             }}
-                        >Save The Date</p>
+                        >Octanio Noya</p>
                     </div>
                     <div
                         style = {{
@@ -97,7 +98,6 @@ class App extends React.Component {
                         style = {{
                             display: 'flex',
                             flexDirection: 'column',
-                            alignItems: 'center',
                             width: 200
                         }}
                     >
@@ -105,16 +105,18 @@ class App extends React.Component {
                             style = {{
                                 fontFamily: 'DancingScriptBold',
                                 fontSize: 60,
-                                margin: 0
+                                margin: 0,
+                                textAlign: "left"
                             }}
                         >Arta</h1>
                         <p
                             style = {{
                                 fontFamily: 'MontserratMedium',
                                 fontSize: 12,
-                                margin: 0
+                                margin: 0,
+                                textAlign: "left"
                             }}
-                        >{this.dateTarget.format('MMMM DD, YYYY')}</p>
+                        >Mevia Maharani</p>
                     </div>
                 </div>
                 
