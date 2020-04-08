@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/ourwedding/static/css/main.f78f7c5e.chunk.css",
-    "main.js": "/ourwedding/static/js/main.e71bc5fd.chunk.js",
-    "main.js.map": "/ourwedding/static/js/main.e71bc5fd.chunk.js.map",
+    "main.js": "/ourwedding/static/js/main.d3abaadd.chunk.js",
+    "main.js.map": "/ourwedding/static/js/main.d3abaadd.chunk.js.map",
     "runtime-main.js": "/ourwedding/static/js/runtime-main.44c9c021.js",
     "runtime-main.js.map": "/ourwedding/static/js/runtime-main.44c9c021.js.map",
-    "static/js/2.b548c93b.chunk.js": "/ourwedding/static/js/2.b548c93b.chunk.js",
-    "static/js/2.b548c93b.chunk.js.map": "/ourwedding/static/js/2.b548c93b.chunk.js.map",
+    "static/js/2.2b584665.chunk.js": "/ourwedding/static/js/2.2b584665.chunk.js",
+    "static/js/2.2b584665.chunk.js.map": "/ourwedding/static/js/2.2b584665.chunk.js.map",
     "index.html": "/ourwedding/index.html",
-    "precache-manifest.5296ea64d0417739a060fbba2af223da.js": "/ourwedding/precache-manifest.5296ea64d0417739a060fbba2af223da.js",
+    "precache-manifest.3a690ccfc3bf6f36dc92944df9f67274.js": "/ourwedding/precache-manifest.3a690ccfc3bf6f36dc92944df9f67274.js",
     "service-worker.js": "/ourwedding/service-worker.js",
     "static/css/main.f78f7c5e.chunk.css.map": "/ourwedding/static/css/main.f78f7c5e.chunk.css.map",
-    "static/js/2.b548c93b.chunk.js.LICENSE.txt": "/ourwedding/static/js/2.b548c93b.chunk.js.LICENSE.txt",
+    "static/js/2.2b584665.chunk.js.LICENSE.txt": "/ourwedding/static/js/2.2b584665.chunk.js.LICENSE.txt",
     "static/media/index.css": "/ourwedding/static/media/Montserrat-Medium.c8b6e083.ttf",
     "static/media/profile.jpg": "/ourwedding/static/media/profile.44f03d8b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.44c9c021.js",
-    "static/js/2.b548c93b.chunk.js",
+    "static/js/2.2b584665.chunk.js",
     "static/css/main.f78f7c5e.chunk.css",
-    "static/js/main.e71bc5fd.chunk.js"
+    "static/js/main.d3abaadd.chunk.js"
   ]
 }
