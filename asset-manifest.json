@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ourwedding/static/css/main.f78f7c5e.chunk.css",
+    "main.css": "/ourwedding/static/css/main.07126c5f.chunk.css",
     "main.js": "/ourwedding/static/js/main.d3abaadd.chunk.js",
     "main.js.map": "/ourwedding/static/js/main.d3abaadd.chunk.js.map",
     "runtime-main.js": "/ourwedding/static/js/runtime-main.44c9c021.js",
@@ -8,9 +8,9 @@
     "static/js/2.2b584665.chunk.js": "/ourwedding/static/js/2.2b584665.chunk.js",
     "static/js/2.2b584665.chunk.js.map": "/ourwedding/static/js/2.2b584665.chunk.js.map",
     "index.html": "/ourwedding/index.html",
-    "precache-manifest.4e08d894a088449241d37a84da40dbfe.js": "/ourwedding/precache-manifest.4e08d894a088449241d37a84da40dbfe.js",
+    "precache-manifest.df8650f5d17073248ee5aeb95cf819a2.js": "/ourwedding/precache-manifest.df8650f5d17073248ee5aeb95cf819a2.js",
     "service-worker.js": "/ourwedding/service-worker.js",
-    "static/css/main.f78f7c5e.chunk.css.map": "/ourwedding/static/css/main.f78f7c5e.chunk.css.map",
+    "static/css/main.07126c5f.chunk.css.map": "/ourwedding/static/css/main.07126c5f.chunk.css.map",
     "static/js/2.2b584665.chunk.js.LICENSE.txt": "/ourwedding/static/js/2.2b584665.chunk.js.LICENSE.txt",
     "static/media/index.css": "/ourwedding/static/media/Montserrat-Medium.c8b6e083.ttf",
     "static/media/profile.jpg": "/ourwedding/static/media/profile.44f03d8b.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.44c9c021.js",
     "static/js/2.2b584665.chunk.js",
-    "static/css/main.f78f7c5e.chunk.css",
+    "static/css/main.07126c5f.chunk.css",
     "static/js/main.d3abaadd.chunk.js"
   ]
 }
