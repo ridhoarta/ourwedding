@@ -5,10 +5,10 @@ body {
 
 @font-face {
   font-family: 'DancingScriptBold';
-  src: local('DancingScript-Bold'), url(./Fonts/DancingScript-Bold.ttf) format('ttf')
+  src: url(./Fonts/DancingScript-Bold.ttf)
 }
 
 @font-face {
   font-family: 'MontserratMedium';
-  src: local('Montserrat-Medium'), url(./Fonts/Montserrat-Medium.ttf) format('ttf')
+  src: url(./Fonts/Montserrat-Medium.ttf)
 }
