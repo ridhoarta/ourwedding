@@ -10,7 +10,7 @@ const oneHour = 60 * oneMinute
 const oneDay = 24 * oneHour
 
 class App extends React.Component {
-    dateTarget = moment('2020-08-15')
+    dateTarget = moment('2020-06-20')
 
     state = {
         diffs: this.getDateDiffs(),
